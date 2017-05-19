@@ -3,6 +3,9 @@
 " Maintainers: Matt Hellige <matt@immute.net>
 " Last change: 2011 December 19
 
+if exists("b:current_syntax")
+  finish
+endif
 
 syn clear
 
